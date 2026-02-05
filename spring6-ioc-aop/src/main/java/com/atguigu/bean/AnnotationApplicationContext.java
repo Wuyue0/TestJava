@@ -9,6 +9,10 @@ import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
 import java.net.URL;
 import java.net.URLDecoder;
+import java.nio.file.DirectoryStream;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.Map;
@@ -22,14 +26,28 @@ public class AnnotationApplicationContext implements  ApplicationContext{
 
     // 构造函数进行初始化
     public AnnotationApplicationContext(String basePackage) throws Exception {
-        // com.atguigu 变成com/atguigu
-        String packagePath = basePackage.replaceAll("\\.", "/");
-        // 获取包绝对路径
+        // com.atguigu 变成com/atguigu 必须使用 / 作为分隔符
+        // 传递给Thread.currentThread().getContextClassLoader().getResource
+        // 这里传递/或者\\都可以底层统一返回/格式不管是windows还是mac
+        String packagePath = basePackage.replace('.', '/');
+        // 获取包绝对路径 不同操作系统返回的格式不同 mac没事
+        //  file:/C:/Users/11040/IdeaProjects/TestJava/spring6-ioc-aop/target/classes/com/atguigu
+        // mac 下 /xxx/xxx
+        // 主要是windows下返回的路径多带一个\ (指的是 c盘前边的/)但是new File 不带 底层会根据packagePath自动选择
         URL url = Thread.currentThread().getContextClassLoader().getResource(packagePath);
-        // url转码 可以不写 只是为了乱码使用的
-        String filePath = URLDecoder.decode(url.getPath(), "utf-8");
-        // 截取路径前边的部分
-        rootPath = filePath.substring(0, filePath.length() - packagePath.length());
+        // URL -> Path（跨平台）url转码 可以不写 只是为了乱码使用的
+        Path rootDir = Paths.get(url.toURI());
+        String filePath = rootDir.toString(); // 保存完整的路径给file对象
+        System.out.println(filePath);
+        // 每次改变rootdir 除去 传递的包之外的路径
+        for (int i = 0; i < basePackage.split("\\.").length; i++) {
+            rootDir = rootDir.getParent();
+        }
+        // String filePath = URLDecoder.decode(url.getPath(), "utf-8");
+        // filePath.substring(0, filePath.length() - packagePath.length()); 废弃兼容性问题
+
+        rootPath = rootDir.toString();
+
         // 包扫描
         loadBean(new File(filePath));
 
@@ -84,12 +102,12 @@ public class AnnotationApplicationContext implements  ApplicationContext{
             }
         }else{
             // 是文件的话
-            // 得到包路径+类名称部分
-            String pathWithClass = file.getAbsolutePath().substring(rootPath.length());
+            // 得到包路径+类名称部分 rootDir.length()
+            String pathWithClass = file.getAbsolutePath().substring(rootPath.length()+1);
             // 当前的路径包含class 也就是class文件
             if(pathWithClass.contains(".class")){
                 // 把.class去掉 并且把/变成.
-                String allName = pathWithClass.replaceAll("/", ".").replaceAll("\\.class$", "");
+                String allName = pathWithClass.replace(File.separatorChar, '.').replaceAll("\\.class$", "");
                 //获取class对象
                 Class clazz = Class.forName(allName);
                 // 判断类上边是否有注解@bean

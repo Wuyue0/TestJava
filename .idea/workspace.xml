@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05ad6401-cdb0-400e-843b-f2c888229745" name="更改" comment="更改groupId和artifactId">
+    <list default="true" id="05ad6401-cdb0-400e-843b-f2c888229745" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-jdbc-tx/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-jdbc-tx/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-jdbc-tx/src/main/resources/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-jdbc-tx/src/main/resources/bean.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring6-ioc-aop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-ioc-aop/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-ioc-aop/src/main/java/com/atguigu/bean/AnnotationApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-ioc-aop/src/main/java/com/atguigu/bean/AnnotationApplicationContext.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring6-junit/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-junit/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,46 +62,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;JUnit.ManualSpringTest.testManualSpringSetup.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SimpleSpringTest.testSpringContextLoad.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SpringJunit5Test.testUser.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SpringTestJunit4.testUser4.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SpringTestJunit5.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SpringTestJunit5.testUser.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TestUser.test (1).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TestUser.test.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.spring6-ioc-aop [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.spring6-junit [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.wuyue [clean].executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/11040/IdeaProjects/TestJava&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/wuyue/project/web-all/wuyue/spring-jdbc-tx/src/main/java/com/atguigu/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;应用程序.AnnotationApplicationContext.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.Main.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "JUnit.ManualSpringTest.testManualSpringSetup.executor": "Run",
+    "JUnit.SimpleSpringTest.testSpringContextLoad.executor": "Run",
+    "JUnit.SpringJunit5Test.testUser.executor": "Run",
+    "JUnit.SpringTestJunit4.testUser4.executor": "Run",
+    "JUnit.SpringTestJunit5.executor": "Run",
+    "JUnit.SpringTestJunit5.testUser.executor": "Run",
+    "JUnit.TestUser.test (1).executor": "Run",
+    "JUnit.TestUser.test.executor": "Run",
+    "Maven.spring6 [clean].executor": "Run",
+    "Maven.spring6 [compile].executor": "Run",
+    "Maven.spring6-ioc-aop [clean].executor": "Run",
+    "Maven.spring6-junit [clean].executor": "Run",
+    "Maven.wuyue [clean].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/11040/IdeaProjects/TestJava",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/wuyue/project/web-all/wuyue/spring-jdbc-tx/src/main/java/com/atguigu/Main.java",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.AnnotationApplicationContext.executor": "Run",
+    "应用程序.Main.executor": "Run"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/spring6-ioc-aop/src" />
@@ -112,7 +114,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SpringJunit5Test.testUser">
+  <component name="RunManager" selected="JUnit.TestUser.test">
     <configuration name="ManualSpringTest.testManualSpringSetup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring6-junit" />
       <extension name="coverage">
@@ -177,17 +179,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringTestsJunit.testUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring6-junit" />
+    <configuration name="TestUser.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring6-ioc-aop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="com.atguigu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu.spring6.junit.junit5" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.spring6.junit.junit5.SpringTestsJunit" />
-      <option name="METHOD_NAME" value="testUser" />
+      <option name="PACKAGE_NAME" value="com.atguigu" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.TestUser" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -308,11 +310,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestUser.test" />
         <item itemvalue="JUnit.SpringJunit5Test.testUser" />
         <item itemvalue="JUnit.ManualSpringTest.testManualSpringSetup" />
         <item itemvalue="JUnit.SimpleSpringTest.testSpringContextLoad" />
         <item itemvalue="JUnit.SpringTestJunit4.testUser4" />
-        <item itemvalue="JUnit.SpringTestsJunit.testUser" />
       </list>
     </recent_temporary>
   </component>
@@ -339,7 +341,9 @@
       <workItem from="1770280112486" duration="713000" />
       <workItem from="1770288336312" duration="1108000" />
       <workItem from="1770289466232" duration="4785000" />
-      <workItem from="1770294265533" duration="371000" />
+      <workItem from="1770294265533" duration="446000" />
+      <workItem from="1770294723630" duration="7177000" />
+      <workItem from="1770301929579" duration="506000" />
     </task>
     <task id="LOCAL-00001" summary="练习初始化">
       <option name="closed" value="true" />
@@ -373,7 +377,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770293916254</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="更改groupId和artifactId">
+      <option name="closed" value="true" />
+      <created>1770294666013</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1770294666013</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
