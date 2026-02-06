@@ -9,6 +9,7 @@
         <module name="spring6-junit" />
         <module name="spring6-ioc-aop" />
         <module name="spring-jdbc-tx" />
+        <module name="java-jdbc" />
       </profile>
     </annotationProcessing>
   </component>

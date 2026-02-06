@@ -4,18 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05ad6401-cdb0-400e-843b-f2c888229745" name="更改" comment="">
+    <list default="true" id="05ad6401-cdb0-400e-843b-f2c888229745" name="更改" comment="增加readme 说明">
+      <change afterPath="$PROJECT_DIR$/java-jdbc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-jdbc/src/main/java/com/atguigu/advanced/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-jdbc/src/main/java/com/atguigu/base/JDBCOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-jdbc/src/main/java/com/atguigu/base/JDBCQuick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-jdbc-tx/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-jdbc-tx/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-ioc-aop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-ioc-aop/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-ioc-aop/src/main/java/com/atguigu/bean/AnnotationApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-ioc-aop/src/main/java/com/atguigu/bean/AnnotationApplicationContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-junit/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-junit/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="29" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -37,15 +44,23 @@
     &quot;assignee&quot;: &quot;Wuyue0&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;git@github.com:Wuyue0/TestJava.git&quot;,
-    &quot;accountId&quot;: &quot;43d86a6e-2bd3-49dc-9763-86ac2bda8e90&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Wuyue0/TestJava.git",
+    "accountId": "9ae6412a-1104-4dba-a496-5d71af876f6a"
   }
-}</component>
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/spring6-junit/src/main/resources/bean.xml" root0="FORCE_HIGHLIGHTING" />
     <setting file="jar:///opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Map.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="/opt/homebrew/Cellar/maven/3.9.9/libexec" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="McpProjectServerCommands">
     <commands />
@@ -58,6 +73,9 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="398jChW2TVMwOj0cySb1uMXMg7u" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -65,6 +83,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "JUnit.JDBCOperation.testQuerySingleRowAndCol.executor": "Run",
+    "JUnit.JDBCQuick.executor": "Run",
+    "JUnit.JDBCQuick.test.executor": "Debug",
     "JUnit.ManualSpringTest.testManualSpringSetup.executor": "Run",
     "JUnit.SimpleSpringTest.testSpringContextLoad.executor": "Run",
     "JUnit.SpringJunit5Test.testUser.executor": "Run",
@@ -94,14 +115,20 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/wuyue/project/web-all/wuyue/spring-jdbc-tx/src/main/java/com/atguigu/Main.java",
-    "project.structure.last.edited": "模块",
+    "onboarding.tips.debug.path": "/Users/wuyue/project/web-all/TestJava/java-jdbc/src/main/java/com/atguigu/Main.java",
+    "project.structure.last.edited": "项目",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.archetype.catalogs",
     "vue.rearranger.settings.migration": "true",
     "应用程序.AnnotationApplicationContext.executor": "Run",
+    "应用程序.JDBCQuick.executor": "Run",
     "应用程序.Main.executor": "Run"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -114,34 +141,49 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestUser.test">
-    <configuration name="ManualSpringTest.testManualSpringSetup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring6-junit" />
+  <component name="RunManager" selected="JUnit.JDBCOperation.testQuerySingleRowAndCol">
+    <configuration name="JDBCOperation.testQuerySingleRowAndCol" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-jdbc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.spring6.junit.*" />
+          <option name="PATTERN" value="com.atguigu.base.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu.spring6.junit.junit5" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.spring6.junit.junit5.ManualSpringTest" />
-      <option name="METHOD_NAME" value="testManualSpringSetup" />
+      <option name="PACKAGE_NAME" value="com.atguigu.base" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.base.JDBCOperation" />
+      <option name="METHOD_NAME" value="testQuerySingleRowAndCol" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleSpringTest.testSpringContextLoad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring6-junit" />
+    <configuration name="JDBCQuick" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-jdbc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.spring6.junit.*" />
+          <option name="PATTERN" value="com.atguigu.base.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu.spring6.junit.junit5" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.spring6.junit.junit5.SimpleSpringTest" />
-      <option name="METHOD_NAME" value="testSpringContextLoad" />
+      <option name="PACKAGE_NAME" value="com.atguigu.base" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.base.JDBCQuick" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JDBCQuick.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-jdbc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.base" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.base.JDBCQuick" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -158,22 +200,6 @@
       <option name="PACKAGE_NAME" value="com.atguigu.spring6.junit.junit5" />
       <option name="MAIN_CLASS_NAME" value="com.atguigu.spring6.junit.junit5.SpringJunit5Test" />
       <option name="METHOD_NAME" value="testUser" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringTestJunit4.testUser4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring6-junit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.spring6.junit.junit5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu.spring6.junit.junit5" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.spring6.junit.junit5.SpringTestJunit4" />
-      <option name="METHOD_NAME" value="testUser4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -197,6 +223,17 @@
     </configuration>
     <configuration default="true" type="JarApplication">
       <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="spring6-ioc-aop" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="spring6-ioc-aop" />
+      <option name="filePath" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.50" ALTERNATIVE_JRE_ENABLED="false">
@@ -310,19 +347,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestUser.test" />
+        <item itemvalue="JUnit.JDBCOperation.testQuerySingleRowAndCol" />
+        <item itemvalue="JUnit.JDBCQuick.test" />
+        <item itemvalue="JUnit.JDBCQuick" />
         <item itemvalue="JUnit.SpringJunit5Test.testUser" />
-        <item itemvalue="JUnit.ManualSpringTest.testManualSpringSetup" />
-        <item itemvalue="JUnit.SimpleSpringTest.testSpringContextLoad" />
-        <item itemvalue="JUnit.SpringTestJunit4.testUser4" />
+        <item itemvalue="JUnit.TestUser.test" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.138" />
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.29346.138" />
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.30387.90" />
       </set>
     </attachedChunks>
   </component>
@@ -344,6 +381,7 @@
       <workItem from="1770294265533" duration="446000" />
       <workItem from="1770294723630" duration="7177000" />
       <workItem from="1770301929579" duration="506000" />
+      <workItem from="1770338305990" duration="19636000" />
     </task>
     <task id="LOCAL-00001" summary="练习初始化">
       <option name="closed" value="true" />
@@ -425,7 +463,20 @@
           <line>13</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java-jdbc/src/main/java/com/atguigu/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.sql.SQLFeatureNotSupportedException" package="java.sql" />
+          <option name="timeStamp" value="20" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

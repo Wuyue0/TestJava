@@ -8,3 +8,6 @@
 
 ## spring-jdbc-tx
 **spring-jdbc进行持久化使用德鲁伊链接池操纵数据库**
+
+## java-jdbc
+**利用原始的jdbc技术进行操纵数据库**

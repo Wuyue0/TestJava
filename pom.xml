@@ -12,6 +12,7 @@
     <module>spring6-junit</module>
     <module>spring6-ioc-aop</module>
     <module>spring-jdbc-tx</module>
+    <module>java-jdbc</module>
   </modules>
 
   <properties>
