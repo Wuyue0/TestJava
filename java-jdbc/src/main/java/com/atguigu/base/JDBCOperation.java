@@ -26,5 +26,8 @@ public class JDBCOperation {
         resultSet.close();
         preparedStatement.close();
         connection.close();
+
+
+//        ThreadLocal<Connection> wuyue = new ThreadLocal();
     }
 }

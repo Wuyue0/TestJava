@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springMVC-demo1" />
         <module name="spring6-junit" />
         <module name="spring6-ioc-aop" />
         <module name="spring-jdbc-tx" />
