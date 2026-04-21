@@ -18,9 +18,11 @@
   </properties>
 
   <dependencies>
+    <!--spring-context 表示讲spring的基础依赖引入了-->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-context</artifactId>
+      <version>6.2.7</version>
     </dependency>
 
     <dependency>

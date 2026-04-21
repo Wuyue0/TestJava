@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="springMVC-demo1:war" />
       <artifact name="springMVC-demo1:war exploded" />
     </artifacts-to-build>
   </component>
@@ -10,15 +9,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05ad6401-cdb0-400e-843b-f2c888229745" name="更改" comment="修改jdbc">
-      <change afterPath="$PROJECT_DIR$/spring-jdbc-tx/src/main/java/com/atguigu/spring6/jdbc/JdbcTemplateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="05ad6401-cdb0-400e-843b-f2c888229745" name="更改" comment="修改优化练习代码">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-jdbc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-jdbc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springMVC_demo1_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springMVC_demo1_war_exploded/WEB-INF/classes/com/atguigu/mvc/controller/HelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springMVC_demo1_war_exploded/WEB-INF/classes/springmvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springMVC_demo1_war_exploded/WEB-INF/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springMVC_demo1_war_exploded/WEB-INF/web.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-jdbc-tx/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-jdbc-tx/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-jdbc-tx/src/main/resources/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-jdbc-tx/src/main/resources/bean.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-ioc-aop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-ioc-aop/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring6-junit/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-junit/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springMVC-demo1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springMVC-demo1/pom.xml" afterDir="false" />
     </list>
@@ -276,7 +275,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="springMVC-demo1:war" />
           <artifact name="springMVC-demo1:war exploded" />
         </option>
       </method>
@@ -429,7 +427,9 @@
       <workItem from="1776668673122" duration="6548000" />
       <workItem from="1776675325343" duration="334000" />
       <workItem from="1776731018615" duration="5629000" />
-      <workItem from="1776741740181" duration="8358000" />
+      <workItem from="1776741740181" duration="9117000" />
+      <workItem from="1776758990282" duration="884000" />
+      <workItem from="1776759880177" duration="2389000" />
     </task>
     <task id="LOCAL-00001" summary="练习初始化">
       <option name="closed" value="true" />
@@ -479,7 +479,23 @@
       <option name="project" value="LOCAL" />
       <updated>1770365302531</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="修改优化练习代码">
+      <option name="closed" value="true" />
+      <created>1776758600676</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1776758600677</updated>
+    </task>
+    <task id="LOCAL-00008" summary="修改优化练习代码">
+      <option name="closed" value="true" />
+      <created>1776758609205</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1776758609205</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -505,7 +521,8 @@
     <MESSAGE value="解决junit4和juit5报错问题" />
     <MESSAGE value="更改groupId和artifactId" />
     <MESSAGE value="修改jdbc" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改jdbc" />
+    <MESSAGE value="修改优化练习代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改优化练习代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

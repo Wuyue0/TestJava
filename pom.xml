@@ -27,13 +27,6 @@
 
   <dependencyManagement>
     <dependencies>
-      <!--spring-context 表示讲spring的基础依赖引入了-->
-      <dependency>
-        <groupId>org.springframework</groupId>
-        <artifactId>spring-context</artifactId>
-        <version>${spring.version}</version>
-      </dependency>
-
       <!--    spring 整合junit的支持相关依赖-->
       <dependency>
         <groupId>org.springframework</groupId>
