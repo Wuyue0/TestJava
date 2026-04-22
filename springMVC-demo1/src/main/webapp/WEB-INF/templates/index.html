@@ -6,5 +6,13 @@
 </head>
 <body>
     <h1>首歌</h1>
+    <a th:href="@{/target}">访问trget的html</a>
+    <button id="wuyue">点击我</button>
+    <script>
+        const btn = document.getElementById("wuyue")
+        btn.addEventListener('click', function () {
+            alert(123)
+        })
+    </script>
 </body>
 </html>
