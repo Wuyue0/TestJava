@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+     <h1>首页 hello 域对象的设置～～～～</h1>
+     <a th:href="@{/testRequestByServletApi}">通过servletApi向request域对象共享数据</a><br>
+     <a th:href="@{/testModelAndView}">通过ModelAndView 向request域对象共享数据</a><br>
+     <a th:href="@{/testModel}">使用model向request域对象传递数据</a><br>
+     <a th:href="@{/testMap}">使用Map向request域对象传递数据</a><br>
+     <a th:href="@{/testModelMap}">使用ModelMap向request域对象共享数据</a><br>
+     <a th:href="@{/testSession}">使用servletApi向session域对象共享数据</a><br>
+     <a th:href="@{/testApplication}">使用servletApi向application域对象共享数据</a><br>
+     <a th:href="@{/test_view}">跳转到test——view页面</a><br>
+</body>
+</html>
