@@ -3,16 +3,16 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.atguigu.mybatis.mapper.UserMapper">
-<!--  查询用户getUserById-->
+  <!--查询用户getUserById 和参数名字保持一致-->
   <select id="getUserById" resultType="user">
-    select * from users where id = 1
+    select * from users where id = #{id}
   </select>
-<!--  insertUser-->
+  <!--insertUser-->
   <insert id="insertUser">
     insert into users values(null, 'admin', '123456', null)
   </insert>
 
-<!--  修改用户信息username为admin-->
+  <!--修改用户信息username为admin-->
   <update id="updateUser">
     update users set username = 'test' where id = 4
   </update>
@@ -22,8 +22,30 @@
     delete from users where id = 4
   </delete>
 
-<!--  查询所有的用户信息list集合-->
+  <!--查询所有的用户信息list集合-->
   <select id="getAllUser" resultType="user">
     select * from users
+  </select>
+
+  <!--根据用户名密码校验登录 User checkLogin(String username, String password)-->
+  <!--arg0 代表参数1。arg1 代表参数2 param0  代表参数1 param1 代表参数2-->
+  <select id="checkLogin" resultType="user">
+    select * from users where username = #{arg0} and password = #{param2}
+  </select>
+
+
+  <!--  checkLoginByMap-->
+  <select id="checkLoginByMap" resultType="user">
+    select * from users where username = #{username} and password = #{password}
+  </select>
+
+  <!-- checkLoginByUser-->
+  <select id="checkLoginByUser" resultType="user">
+    select * from users where username = #{username} and password = #{password}
+  </select>
+
+  <!--User checkLoginByParam(@Param("username") String username, @Param("password") String password);-->
+  <select id="checkLoginByParam" resultType="user">
+    select * from users where username = #{username} and password = #{password}
   </select>
 </mapper>

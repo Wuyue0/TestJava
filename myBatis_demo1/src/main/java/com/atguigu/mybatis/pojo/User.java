@@ -1,7 +1,7 @@
 package com.atguigu.mybatis.pojo;
 
 public class User {
-    private int id;
+    private Integer id;
     private String username;
     private String password;
     private String created_at;

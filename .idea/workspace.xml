@@ -10,15 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05ad6401-cdb0-400e-843b-f2c888229745" name="更改" comment="修改优化练习代码">
-      <change afterPath="$PROJECT_DIR$/myBatis_demo1/src/main/resources/com/atguigu/mybatis/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myBatis_demo1/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myBatis_demo1/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myBatis_demo1/src/main/java/com/atguigu/mybatis/utils/SqlSessionUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myBatis_demo1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/myBatis_demo1/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myBatis_demo1/src/main/java/com/atguigu/mybatis/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/myBatis_demo1/src/main/java/com/atguigu/mybatis/mapper/UserMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myBatis_demo1/src/main/java/com/atguigu/mybatis/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/myBatis_demo1/src/main/java/com/atguigu/mybatis/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myBatis_demo1/src/main/resources/mappers/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myBatis_demo1/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/myBatis_demo1/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myBatis_demo1/src/main/resources/com/atguigu/mybatis/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/myBatis_demo1/src/main/resources/com/atguigu/mybatis/mapper/UserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myBatis_demo1/src/test/java/com/atguigu/mybatis/test/MybatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/myBatis_demo1/src/test/java/com/atguigu/mybatis/test/MybatisTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -527,7 +523,7 @@
       <workItem from="1776989652254" duration="8148000" />
       <workItem from="1777249823706" duration="27419000" />
       <workItem from="1777427445037" duration="36000" />
-      <workItem from="1777427502493" duration="5292000" />
+      <workItem from="1777427502493" duration="11405000" />
     </task>
     <task id="LOCAL-00001" summary="练习初始化">
       <option name="closed" value="true" />
@@ -617,7 +613,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777367346892</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="修改优化练习代码">
+      <option name="closed" value="true" />
+      <created>1777433038819</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1777433038819</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
