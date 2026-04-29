@@ -14,6 +14,7 @@ import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -74,5 +75,6 @@ public class MybatisTest {
     @Test
     public void testJDBC() throws IOException {
 
+        ArrayList<String> list = new ArrayList<>();
     }
 }
