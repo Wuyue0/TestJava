@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+    <!-- 控制台输出 -->
+    <appender name="STDOUT" class="org.apache.log4j.ConsoleAppender">
+        <param name="Encoding" value="UTF-8"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5p %c{1}:%L - %m%n"/>
+        </layout>
+    </appender>
+
+    <!-- 文件输出 -->
+    <appender name="file" class="org.apache.log4j.RollingFileAppender">
+        <param name="File" value="logs/application.log"/>
+        <param name="MaxFileSize" value="10MB"/>
+        <param name="MaxBackupIndex" value="10"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5p %c{1}:%L - %m%n"/>
+        </layout>
+    </appender>
+
+    <logger name="java.sql">
+        <level value="debug"/>
+    </logger>
+
+    <!-- MyBatis 日志 -->
+    <logger name="org.apache.ibatis">
+        <level value="info"/>
+    </logger>
+
+    <!-- 根日志级别 -->
+    <root>
+        <level value="debug"/>
+        <appender-ref ref="STDOUT"/>
+    </root>
+
+</log4j:configuration>

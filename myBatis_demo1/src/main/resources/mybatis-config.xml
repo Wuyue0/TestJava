@@ -3,20 +3,50 @@
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "https://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
-<!--  配置连接数据库的环境-->
+
+<!--  properties?,settings?,typeAliases?,typeHandlers?,objectFactory?,
+    objectWrapperFactory?,reflectorFactory?,plugins?,environments?,databaseIdProvider?,mappers?
+-->
+  <!--引入了属性文件-->
+  <properties resource="jdbc.properties"/>
+<!--  设置类型别名-->
+  <typeAliases>
+    <!-- type用来设置某个类型的别名 属性type设置别名的类型-->
+    <!--如果不设置alias的话有一个默认的 实际mapper 使用的时候 不区分大小写-->
+    <!--<typeAlias type="com.atguigu.mybatis.pojo.User" alias="User"></typeAlias>-->
+
+    <!--以包为单位 将包下所有的类型设置为默认的类型别名 即类名不区分大小写 用它比较多不用一个个设置了对类的话-->
+    <package name="com.atguigu.mybatis.pojo"/>
+  </typeAliases>
+  <!--
+      environments 配置多个连接数据库的环境
+      属性：
+       default： 设置默认使用的环境的id
+   -->
   <environments default="development">
+    <!--开发环境 id为连接数据库的唯一标识 不能重复-->
     <environment id="development">
+      <!--事务管理器 type=JDBC｜MANAGED jdbc代表执行sql时使用jdbc原生的事物管理方式-->
+      <!--managed被管理 例如spring-->
       <transactionManager type="JDBC"/>
+      <!--数据源 type=POOLED｜UNPOOLED｜JNDI-->
+      <!--POOLED 连接池 表示使用数据库连接池缓存数据库连接-->
+      <!--UNPOOLED 不使用连接池-->
+      <!--JNDI 使用jndi数据库连接-->
       <dataSource type="POOLED">
-        <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
-        <property name="url" value="jdbc:mysql://localhost:3306/Test"/>
-        <property name="username" value="root"/>
-        <property name="password" value="12345678"/>
+        <!--连接数据库的驱动-->
+        <property name="driver" value="${jdbc.driver}"/>
+        <!--连接数据库的url-->
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
       </dataSource>
     </environment>
   </environments>
 <!--  引入映射文件-->
   <mappers>
-    <mapper resource="mappers/UserMapper.xml"/>
+    <!--<mapper resource="mappers/UserMapper.xml"/>-->
+    <!--以包为单位 扫描包下的所有映射文件-->
+    <package name="com.atguigu.mybatis.mapper"/>
   </mappers>
 </configuration>
