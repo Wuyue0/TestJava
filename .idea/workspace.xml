@@ -9,10 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05ad6401-cdb0-400e-843b-f2c888229745" name="更改" comment="mybatis 相关练习">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myBatis_demo1/src/test/java/com/atguigu/mybatis/test/MybatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/myBatis_demo1/src/test/java/com/atguigu/mybatis/test/MybatisTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="05ad6401-cdb0-400e-843b-f2c888229745" name="更改" comment="mybatis 相关练习" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -519,7 +516,7 @@
       <workItem from="1776989652254" duration="8148000" />
       <workItem from="1777249823706" duration="27419000" />
       <workItem from="1777427445037" duration="36000" />
-      <workItem from="1777427502493" duration="16466000" />
+      <workItem from="1777427502493" duration="17079000" />
     </task>
     <task id="LOCAL-00001" summary="练习初始化">
       <option name="closed" value="true" />
@@ -625,7 +622,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777444808822</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="mybatis 相关练习">
+      <option name="closed" value="true" />
+      <created>1777454451160</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1777454451160</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
