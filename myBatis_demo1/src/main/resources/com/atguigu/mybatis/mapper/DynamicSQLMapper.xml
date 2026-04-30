@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.atguigu.mybatis.mapper.DynamicSQLMapper">
+  <!--getTagById 解决字段名和java对象属性名不一致的情况-->
+  <select id="getUserByCondition" resultType="User">
+    select * from users where
+    <if test="username != null and username != ''">
+      username = #{username}
+    </if>
+    <if test="password != null and password != ''">
+      and password = #{password}
+    </if>
+  </select>
+
+
+  <!--多对一 方式一 就是一条sql语句请求 直接组成java对象 自己到时候练习1-->
+
+
+
+  <!--多对一 方式二 就是多条sql前后请求 然后组成java对象 自己到时候练习2 延迟加载 默认不开启-->
+  <!--fetchType 在开启了全局的延迟加载之后 可以通过次属性手动控制延迟加载的效果 值为 lazy｜eager-->
+  <!--lazy延迟加载 eager立即加载 默认不写就是lazy-->
+
+</mapper>

@@ -37,4 +37,6 @@ public interface UserMapper {
     // 9.使用@param 命名参数
     User checkLoginByParam(@Param("username") String username, @Param("password") String password);
 
+
+    // 属性和java对象的属性对不上的时候
 }

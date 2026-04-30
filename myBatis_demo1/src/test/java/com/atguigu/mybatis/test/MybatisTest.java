@@ -1,6 +1,8 @@
 package com.atguigu.mybatis.test;
 
+import com.atguigu.mybatis.mapper.TagMapper;
 import com.atguigu.mybatis.mapper.UserMapper;
+import com.atguigu.mybatis.pojo.Tag;
 import com.atguigu.mybatis.pojo.User;
 import com.atguigu.mybatis.utils.SqlSessionUtils;
 import org.apache.ibatis.io.Resources;
@@ -76,5 +78,28 @@ public class MybatisTest {
     public void testJDBC() throws IOException {
 
         ArrayList<String> list = new ArrayList<>();
+    }
+
+
+
+    //   <resultMap id="tagResultMap" type="tag">
+    //    <id property="id" column="id"></id>
+    //    <result property="name" column="name"></result>
+    //    <result property="createdAt" column="created_at"></result>
+    //    <result property="updatedAt" column="updated_at"></result>
+    //    <result property="slug" column="slug"></result>
+    //  </resultMap>
+    //
+    //  <select id="getTagById" resultMap="tagResultMap">
+    //    select * from tags where id = #{id}
+    //  </select>
+
+    // resultMap的用法 查询出来的结果 要映射到哪一个java对象 以及 属性的映射关系
+    @Test
+    public void testTag() throws IOException {
+        SqlSession sqlSession = SqlSessionUtils.getSqlSession();
+        TagMapper mapper = sqlSession.getMapper(TagMapper.class);
+        Tag tagById = mapper.getTagById(1);
+        System.out.println(tagById);
     }
 }

@@ -9,7 +9,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05ad6401-cdb0-400e-843b-f2c888229745" name="更改" comment="mybatis 相关练习" />
+    <list default="true" id="05ad6401-cdb0-400e-843b-f2c888229745" name="更改" comment="mybatis 相关练习">
+      <change afterPath="$PROJECT_DIR$/myBatis_demo1/src/main/java/com/atguigu/mybatis/mapper/DynamicSQLMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myBatis_demo1/src/main/java/com/atguigu/mybatis/mapper/TagMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myBatis_demo1/src/main/java/com/atguigu/mybatis/pojo/Tag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myBatis_demo1/src/main/resources/com/atguigu/mybatis/mapper/DynamicSQLMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myBatis_demo1/src/main/resources/com/atguigu/mybatis/mapper/TagMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myBatis_demo1/src/main/java/com/atguigu/mybatis/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/myBatis_demo1/src/main/java/com/atguigu/mybatis/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myBatis_demo1/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/myBatis_demo1/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myBatis_demo1/src/test/java/com/atguigu/mybatis/test/MybatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/myBatis_demo1/src/test/java/com/atguigu/mybatis/test/MybatisTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,8 +35,8 @@
         <option value="XML Properties File" />
         <option value="spring-beans.schema" />
         <option value="HTML File" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -93,6 +103,7 @@
     "JUnit.MybatisTest.testMyBatis.executor": "Run",
     "JUnit.MybatisTest.testMyBatis2.executor": "Run",
     "JUnit.MybatisTest.testMyBatis3.executor": "Run",
+    "JUnit.MybatisTest.testTag.executor": "Run",
     "JUnit.SimpleSpringTest.testSpringContextLoad.executor": "Run",
     "JUnit.SpringJunit5Test.testUser.executor": "Run",
     "JUnit.SpringTestJunit4.testUser4.executor": "Run",
@@ -175,7 +186,7 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MybatisTest.testMyBatis">
+  <component name="RunManager" selected="JUnit.MybatisTest.testTag">
     <configuration name="MybatisTest.testMyBatis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myBatis_demo1" />
       <extension name="coverage">
@@ -219,6 +230,22 @@
       <option name="PACKAGE_NAME" value="com.atguigu.mybatis.test" />
       <option name="MAIN_CLASS_NAME" value="com.atguigu.mybatis.test.MybatisTest" />
       <option name="METHOD_NAME" value="testMyBatis3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.testTag" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myBatis_demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.mybatis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.mybatis.test" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.mybatis.test.MybatisTest" />
+      <option name="METHOD_NAME" value="testTag" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -455,12 +482,14 @@
     <list>
       <item itemvalue="JUnit.MybatisTest.testMyBatis2" />
       <item itemvalue="JUnit.MybatisTest.testMyBatis3" />
+      <item itemvalue="JUnit.MybatisTest.testTag" />
       <item itemvalue="JUnit.MybatisTest.testMyBatis" />
       <item itemvalue="JUnit.TestUser.test" />
       <item itemvalue="Tomcat 服务器.Tomcat 8.5.99" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MybatisTest.testTag" />
         <item itemvalue="JUnit.MybatisTest.testMyBatis" />
         <item itemvalue="JUnit.MybatisTest.testMyBatis3" />
         <item itemvalue="JUnit.MybatisTest.testMyBatis2" />
@@ -516,7 +545,7 @@
       <workItem from="1776989652254" duration="8148000" />
       <workItem from="1777249823706" duration="27419000" />
       <workItem from="1777427445037" duration="36000" />
-      <workItem from="1777427502493" duration="18568000" />
+      <workItem from="1777427502493" duration="30312000" />
     </task>
     <task id="LOCAL-00001" summary="练习初始化">
       <option name="closed" value="true" />
@@ -646,7 +675,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777510585073</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="mybatis 相关练习">
+      <option name="closed" value="true" />
+      <created>1777511733533</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1777511733533</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

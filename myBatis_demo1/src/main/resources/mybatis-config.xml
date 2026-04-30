@@ -4,11 +4,22 @@
         "https://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
 
-<!--  properties?,settings?,typeAliases?,typeHandlers?,objectFactory?,
-    objectWrapperFactory?,reflectorFactory?,plugins?,environments?,databaseIdProvider?,mappers?
--->
+  <!--  properties?,settings?,typeAliases?,typeHandlers?,objectFactory?,
+        objectWrapperFactory?,reflectorFactory?,plugins?,environments?,
+        databaseIdProvider?,mappers?
+  -->
+
   <!--引入了属性文件-->
   <properties resource="jdbc.properties"/>
+
+  <!--设置全局的settings-->
+  <settings>
+    <!--将下划线名转换为驼峰命名转换 例如emp_name empName 只影响resultType 不影响resultMap-->
+    <setting name="mapUnderscoreToCamelCase" value="true"/>
+    <!--延迟加载的全局开关 需要设置两个属性 lazyLoadingenabled 默认false 和 aggressiveLazyLoading默认false-->
+  </settings>
+  
+  
 <!--  设置类型别名-->
   <typeAliases>
     <!-- type用来设置某个类型的别名 属性type设置别名的类型-->
