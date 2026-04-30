@@ -130,7 +130,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "/Users/wuyue/project/练习/web-all/TestJava/demo01-web01/src/Main.java",
-    "project.structure.last.edited": "Artifacts",
+    "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2375",
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.常规",
@@ -516,7 +516,7 @@
       <workItem from="1776989652254" duration="8148000" />
       <workItem from="1777249823706" duration="27419000" />
       <workItem from="1777427445037" duration="36000" />
-      <workItem from="1777427502493" duration="17669000" />
+      <workItem from="1777427502493" duration="18568000" />
     </task>
     <task id="LOCAL-00001" summary="练习初始化">
       <option name="closed" value="true" />
@@ -638,7 +638,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777509987018</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="mybatis 相关练习">
+      <option name="closed" value="true" />
+      <created>1777510585073</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1777510585073</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
