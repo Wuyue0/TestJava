@@ -9,17 +9,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05ad6401-cdb0-400e-843b-f2c888229745" name="更改" comment="mybatis 相关练习">
-      <change afterPath="$PROJECT_DIR$/myBatisPlus/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myBatisPlus/src/main/java/com/atguigu/myBatisPlus/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myBatisPlus/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="05ad6401-cdb0-400e-843b-f2c888229745" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/myBatisPlus/src/main/java/com/atguigu/myBatisPlus/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myBatisPlus/src/main/java/com/atguigu/myBatisPlus/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myBatisPlus/src/main/java/com/atguigu/myBatisPlus/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myBatisPlus/src/test/java/com/atguigu/myBatisPlus/MybatisPlusServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myBatisPlus/src/test/java/com/atguigu/myBatisPlus/MybatisPlusWrapperTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-junit/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-junit/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myBatisPlus/src/main/java/com/atguigu/myBatisPlus/MyBatisPlusApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/myBatisPlus/src/main/java/com/atguigu/myBatisPlus/MyBatisPlusApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myBatisPlus/src/main/java/com/atguigu/myBatisPlus/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/myBatisPlus/src/main/java/com/atguigu/myBatisPlus/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myBatisPlus/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/myBatisPlus/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myBatisPlus/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/myBatisPlus/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myBatisPlus/src/test/java/com/atguigu/myBatisPlus/MybatisplusApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/myBatisPlus/src/test/java/com/atguigu/myBatisPlus/MybatisplusApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,70 +94,78 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JUnit.JDBCOperation.testQuerySingleRowAndCol.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.JDBCQuick.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.JDBCQuick.test.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.ManualSpringTest.testManualSpringSetup.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MybatisTest.testMyBatis.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MybatisTest.testMyBatis2.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MybatisTest.testMyBatis3.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MybatisTest.testTag.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SimpleSpringTest.testSpringContextLoad.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SpringJunit5Test.testUser.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SpringTestJunit4.testUser4.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SpringTestJunit5.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SpringTestJunit5.testUser.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TestUser.test (1).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TestUser.test.executor&quot;: &quot;Debug&quot;,
-    &quot;Maven.spring6 [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.spring6 [compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.spring6 [package].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.spring6-ioc-aop [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.spring6-junit [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.wuyue [clean].executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Tomcat Server.Tomcat 8.5.99.executor&quot;: &quot;Run&quot;,
-    &quot;Tomcat 服务器.Tomcat 10.1.50.executor&quot;: &quot;Run&quot;,
-    &quot;Tomcat 服务器.Tomcat 8.5.99.executor&quot;: &quot;Run&quot;,
-    &quot;Tomcat 服务器.Tomcat 9.0.115.executor&quot;: &quot;Run&quot;,
-    &quot;Tomcat 服务器.Tomcat9.executor&quot;: &quot;Run&quot;,
-    &quot;Tomcat 服务器.springMVC.executor&quot;: &quot;Run&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/wuyue/project/练习/web-all/TestJava/springMVC-demo3/src/main/resources&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/wuyue/project/练习/web-all/TestJava/demo01-web01/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2375&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;通义灵码&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;应用程序.AnnotationApplicationContext.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.JDBCQuick.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.Main.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JUnit.JDBCOperation.testQuerySingleRowAndCol.executor": "Run",
+    "JUnit.JDBCQuick.executor": "Run",
+    "JUnit.JDBCQuick.test.executor": "Debug",
+    "JUnit.ManualSpringTest.testManualSpringSetup.executor": "Run",
+    "JUnit.MybatisPlusServiceTest.testGetCount.executor": "Run",
+    "JUnit.MybatisPlusServiceTest.testInsertMore.executor": "Run",
+    "JUnit.MybatisPlusWrapperTest.test01.executor": "Run",
+    "JUnit.MybatisTest.testMyBatis.executor": "Run",
+    "JUnit.MybatisTest.testMyBatis2.executor": "Run",
+    "JUnit.MybatisTest.testMyBatis3.executor": "Run",
+    "JUnit.MybatisTest.testTag.executor": "Run",
+    "JUnit.MybatisplusApplicationTests.testDelete.executor": "Run",
+    "JUnit.MybatisplusApplicationTests.testInsert.executor": "Run",
+    "JUnit.MybatisplusApplicationTests.testSelectList.executor": "Run",
+    "JUnit.MybatisplusApplicationTests.testUpdate.executor": "Run",
+    "JUnit.SimpleSpringTest.testSpringContextLoad.executor": "Run",
+    "JUnit.SpringJunit5Test.testUser.executor": "Run",
+    "JUnit.SpringTestJunit4.testUser4.executor": "Run",
+    "JUnit.SpringTestJunit5.executor": "Run",
+    "JUnit.SpringTestJunit5.testUser.executor": "Run",
+    "JUnit.TestUser.test (1).executor": "Run",
+    "JUnit.TestUser.test.executor": "Debug",
+    "Maven.myBatisPlus [compile].executor": "Run",
+    "Maven.spring6 [clean].executor": "Run",
+    "Maven.spring6 [compile].executor": "Run",
+    "Maven.spring6 [package].executor": "Run",
+    "Maven.spring6-ioc-aop [clean].executor": "Run",
+    "Maven.spring6-junit [clean].executor": "Run",
+    "Maven.wuyue [clean].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Tomcat Server.Tomcat 8.5.99.executor": "Run",
+    "Tomcat 服务器.Tomcat 10.1.50.executor": "Run",
+    "Tomcat 服务器.Tomcat 8.5.99.executor": "Run",
+    "Tomcat 服务器.Tomcat 9.0.115.executor": "Run",
+    "Tomcat 服务器.Tomcat9.executor": "Run",
+    "Tomcat 服务器.springMVC.executor": "Run",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/wuyue/project/练习/web-all/TestJava/springMVC-demo3/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/wuyue/project/练习/web-all/TestJava/demo01-web01/src/Main.java",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2375",
+    "settings.editor.selected.configurable": "通义灵码",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.AnnotationApplicationContext.executor": "Run",
+    "应用程序.JDBCQuick.executor": "Run",
+    "应用程序.Main.executor": "Run"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/springMVC-demo3/src/main/resources" />
@@ -188,82 +198,82 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MybatisTest.testTag">
-    <configuration name="MybatisTest.testMyBatis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myBatis_demo1" />
+  <component name="RunManager" selected="JUnit.MybatisPlusWrapperTest.test01">
+    <configuration name="MybatisPlusServiceTest.testInsertMore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myBatisPlus" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.mybatis.test.*" />
+          <option name="PATTERN" value="com.atguigu.myBatisPlus.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu.mybatis.test" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.mybatis.test.MybatisTest" />
-      <option name="METHOD_NAME" value="testMyBatis" />
+      <option name="PACKAGE_NAME" value="com.atguigu.myBatisPlus" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.myBatisPlus.MybatisPlusServiceTest" />
+      <option name="METHOD_NAME" value="testInsertMore" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisTest.testMyBatis2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myBatis_demo1" />
+    <configuration name="MybatisPlusWrapperTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myBatisPlus" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.mybatis.test.*" />
+          <option name="PATTERN" value="com.atguigu.myBatisPlus.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu.mybatis.test" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.mybatis.test.MybatisTest" />
-      <option name="METHOD_NAME" value="testMyBatis2" />
+      <option name="PACKAGE_NAME" value="com.atguigu.myBatisPlus" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.myBatisPlus.MybatisPlusWrapperTest" />
+      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisTest.testMyBatis3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myBatis_demo1" />
+    <configuration name="MybatisplusApplicationTests.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myBatisPlus" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.mybatis.test.*" />
+          <option name="PATTERN" value="com.atguigu.myBatisPlus.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu.mybatis.test" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.mybatis.test.MybatisTest" />
-      <option name="METHOD_NAME" value="testMyBatis3" />
+      <option name="PACKAGE_NAME" value="com.atguigu.myBatisPlus" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.myBatisPlus.MybatisplusApplicationTests" />
+      <option name="METHOD_NAME" value="testDelete" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisTest.testTag" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myBatis_demo1" />
+    <configuration name="MybatisplusApplicationTests.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myBatisPlus" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.mybatis.test.*" />
+          <option name="PATTERN" value="com.atguigu.myBatisPlus.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu.mybatis.test" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.mybatis.test.MybatisTest" />
-      <option name="METHOD_NAME" value="testTag" />
+      <option name="PACKAGE_NAME" value="com.atguigu.myBatisPlus" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.myBatisPlus.MybatisplusApplicationTests" />
+      <option name="METHOD_NAME" value="testInsert" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestUser.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring6-ioc-aop" />
+    <configuration name="MybatisplusApplicationTests.testSelectList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myBatisPlus" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.*" />
+          <option name="PATTERN" value="com.atguigu.myBatisPlus.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.TestUser" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="com.atguigu.myBatisPlus" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.myBatisPlus.MybatisplusApplicationTests" />
+      <option name="METHOD_NAME" value="testSelectList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -496,22 +506,22 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MybatisTest.testMyBatis2" />
-      <item itemvalue="JUnit.MybatisTest.testMyBatis3" />
-      <item itemvalue="JUnit.MybatisTest.testTag" />
-      <item itemvalue="JUnit.MybatisTest.testMyBatis" />
-      <item itemvalue="JUnit.TestUser.test" />
+      <item itemvalue="JUnit.MybatisPlusWrapperTest.test01" />
+      <item itemvalue="JUnit.MybatisplusApplicationTests.testDelete" />
+      <item itemvalue="JUnit.MybatisPlusServiceTest.testInsertMore" />
+      <item itemvalue="JUnit.MybatisplusApplicationTests.testInsert" />
+      <item itemvalue="JUnit.MybatisplusApplicationTests.testSelectList" />
       <item itemvalue="Spring Boot.MyBatisPlusApplication" />
       <item itemvalue="Spring Boot.DemoApplication" />
       <item itemvalue="Tomcat 服务器.Tomcat 8.5.99" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MybatisTest.testTag" />
-        <item itemvalue="JUnit.MybatisTest.testMyBatis" />
-        <item itemvalue="JUnit.MybatisTest.testMyBatis3" />
-        <item itemvalue="JUnit.MybatisTest.testMyBatis2" />
-        <item itemvalue="JUnit.TestUser.test" />
+        <item itemvalue="JUnit.MybatisPlusWrapperTest.test01" />
+        <item itemvalue="JUnit.MybatisplusApplicationTests.testSelectList" />
+        <item itemvalue="JUnit.MybatisplusApplicationTests.testInsert" />
+        <item itemvalue="JUnit.MybatisplusApplicationTests.testDelete" />
+        <item itemvalue="JUnit.MybatisPlusServiceTest.testInsertMore" />
       </list>
     </recent_temporary>
   </component>
@@ -568,7 +578,8 @@
       <workItem from="1778027316036" duration="1314000" />
       <workItem from="1778028636267" duration="1602000" />
       <workItem from="1778030245678" duration="42000" />
-      <workItem from="1778030303148" duration="2161000" />
+      <workItem from="1778030303148" duration="12822000" />
+      <workItem from="1778050761263" duration="8604000" />
     </task>
     <task id="LOCAL-00001" summary="练习初始化">
       <option name="closed" value="true" />
@@ -714,7 +725,23 @@
       <option name="project" value="LOCAL" />
       <updated>1777536841502</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="mybatisplus 相关练习">
+      <option name="closed" value="true" />
+      <created>1778032598040</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1778032598040</updated>
+    </task>
+    <task id="LOCAL-00020" summary="mybatisplus 相关练习">
+      <option name="closed" value="true" />
+      <created>1778032789369</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1778032789369</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -742,7 +769,8 @@
     <MESSAGE value="修改jdbc" />
     <MESSAGE value="修改优化练习代码" />
     <MESSAGE value="mybatis 相关练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="mybatis 相关练习" />
+    <MESSAGE value="mybatisplus 相关练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="mybatisplus 相关练习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
