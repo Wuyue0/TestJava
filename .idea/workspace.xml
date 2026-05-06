@@ -10,15 +10,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05ad6401-cdb0-400e-843b-f2c888229745" name="更改" comment="mybatis 相关练习">
-      <change afterPath="$PROJECT_DIR$/myBatis_demo1/src/main/java/com/atguigu/mybatis/mapper/DynamicSQLMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myBatis_demo1/src/main/java/com/atguigu/mybatis/mapper/TagMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myBatis_demo1/src/main/java/com/atguigu/mybatis/pojo/Tag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myBatis_demo1/src/main/resources/com/atguigu/mybatis/mapper/DynamicSQLMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myBatis_demo1/src/main/resources/com/atguigu/mybatis/mapper/TagMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myBatisPlus/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myBatisPlus/src/main/java/com/atguigu/myBatisPlus/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myBatisPlus/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myBatis_demo1/src/main/java/com/atguigu/mybatis/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/myBatis_demo1/src/main/java/com/atguigu/mybatis/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myBatis_demo1/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/myBatis_demo1/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myBatis_demo1/src/test/java/com/atguigu/mybatis/test/MybatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/myBatis_demo1/src/test/java/com/atguigu/mybatis/test/MybatisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-junit/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-junit/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +36,8 @@
         <option value="XML Properties File" />
         <option value="spring-beans.schema" />
         <option value="HTML File" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -69,8 +70,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="customMavenHome" value="/opt/homebrew/Cellar/maven/3.9.9/libexec" />
-        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -92,70 +92,70 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JUnit.JDBCOperation.testQuerySingleRowAndCol.executor": "Run",
-    "JUnit.JDBCQuick.executor": "Run",
-    "JUnit.JDBCQuick.test.executor": "Debug",
-    "JUnit.ManualSpringTest.testManualSpringSetup.executor": "Run",
-    "JUnit.MybatisTest.testMyBatis.executor": "Run",
-    "JUnit.MybatisTest.testMyBatis2.executor": "Run",
-    "JUnit.MybatisTest.testMyBatis3.executor": "Run",
-    "JUnit.MybatisTest.testTag.executor": "Run",
-    "JUnit.SimpleSpringTest.testSpringContextLoad.executor": "Run",
-    "JUnit.SpringJunit5Test.testUser.executor": "Run",
-    "JUnit.SpringTestJunit4.testUser4.executor": "Run",
-    "JUnit.SpringTestJunit5.executor": "Run",
-    "JUnit.SpringTestJunit5.testUser.executor": "Run",
-    "JUnit.TestUser.test (1).executor": "Run",
-    "JUnit.TestUser.test.executor": "Debug",
-    "Maven.spring6 [clean].executor": "Run",
-    "Maven.spring6 [compile].executor": "Run",
-    "Maven.spring6 [package].executor": "Run",
-    "Maven.spring6-ioc-aop [clean].executor": "Run",
-    "Maven.spring6-junit [clean].executor": "Run",
-    "Maven.wuyue [clean].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Tomcat Server.Tomcat 8.5.99.executor": "Run",
-    "Tomcat 服务器.Tomcat 10.1.50.executor": "Run",
-    "Tomcat 服务器.Tomcat 8.5.99.executor": "Run",
-    "Tomcat 服务器.Tomcat 9.0.115.executor": "Run",
-    "Tomcat 服务器.Tomcat9.executor": "Run",
-    "Tomcat 服务器.springMVC.executor": "Run",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/wuyue/project/练习/web-all/TestJava/springMVC-demo3/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/wuyue/project/练习/web-all/TestJava/demo01-web01/src/Main.java",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2375",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.常规",
-    "vue.rearranger.settings.migration": "true",
-    "应用程序.AnnotationApplicationContext.executor": "Run",
-    "应用程序.JDBCQuick.executor": "Run",
-    "应用程序.Main.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JUnit.JDBCOperation.testQuerySingleRowAndCol.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JDBCQuick.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JDBCQuick.test.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.ManualSpringTest.testManualSpringSetup.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MybatisTest.testMyBatis.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MybatisTest.testMyBatis2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MybatisTest.testMyBatis3.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MybatisTest.testTag.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SimpleSpringTest.testSpringContextLoad.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SpringJunit5Test.testUser.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SpringTestJunit4.testUser4.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SpringTestJunit5.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SpringTestJunit5.testUser.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestUser.test (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestUser.test.executor&quot;: &quot;Debug&quot;,
+    &quot;Maven.spring6 [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.spring6 [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.spring6 [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.spring6-ioc-aop [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.spring6-junit [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.wuyue [clean].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Tomcat 8.5.99.executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat 服务器.Tomcat 10.1.50.executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat 服务器.Tomcat 8.5.99.executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat 服务器.Tomcat 9.0.115.executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat 服务器.Tomcat9.executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat 服务器.springMVC.executor&quot;: &quot;Run&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/wuyue/project/练习/web-all/TestJava/springMVC-demo3/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/wuyue/project/练习/web-all/TestJava/demo01-web01/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2375&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;通义灵码&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;应用程序.AnnotationApplicationContext.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.JDBCQuick.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Main.executor&quot;: &quot;Run&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/springMVC-demo3/src/main/resources" />
@@ -168,6 +168,7 @@
       <recent name="$PROJECT_DIR$/spring6-ioc-aop/src" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.atguigu.myBatisPlus" />
       <recent name="com.atguigu.spring6.junit" />
       <recent name="com.atguigu.spring6.junit.junit5" />
       <recent name="" />
@@ -281,6 +282,20 @@
       <module name="spring6-ioc-aop" />
       <option name="filePath" />
       <method v="2" />
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisPlusApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="myBatisPlus" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.myBatisPlus.MyBatisPlusApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.99" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -485,6 +500,8 @@
       <item itemvalue="JUnit.MybatisTest.testTag" />
       <item itemvalue="JUnit.MybatisTest.testMyBatis" />
       <item itemvalue="JUnit.TestUser.test" />
+      <item itemvalue="Spring Boot.MyBatisPlusApplication" />
+      <item itemvalue="Spring Boot.DemoApplication" />
       <item itemvalue="Tomcat 服务器.Tomcat 8.5.99" />
     </list>
     <recent_temporary>
@@ -545,7 +562,12 @@
       <workItem from="1776989652254" duration="8148000" />
       <workItem from="1777249823706" duration="27419000" />
       <workItem from="1777427445037" duration="36000" />
-      <workItem from="1777427502493" duration="30312000" />
+      <workItem from="1777427502493" duration="32969000" />
+      <workItem from="1778027040572" duration="273000" />
+      <workItem from="1778027316036" duration="1314000" />
+      <workItem from="1778028636267" duration="1602000" />
+      <workItem from="1778030245678" duration="42000" />
+      <workItem from="1778030303148" duration="2161000" />
     </task>
     <task id="LOCAL-00001" summary="练习初始化">
       <option name="closed" value="true" />
@@ -683,7 +705,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777511733533</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="mybatis 相关练习">
+      <option name="closed" value="true" />
+      <created>1777536841502</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1777536841502</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

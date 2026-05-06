@@ -16,6 +16,7 @@
     <module>springMVC-demo1</module>
     <module>springMVC-demo3</module>
     <module>myBatis_demo1</module>
+    <module>myBatisPlus</module>
   </modules>
 
   <properties>
