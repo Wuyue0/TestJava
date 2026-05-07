@@ -1,17 +1,31 @@
-# ---> Java
-.class
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.ear
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# 1. IntelliJ IDEA 配置 (最关键的)
+.idea/
 *.iml
-*/target/
-/.idea/
+*.iws
+*.ipr
+out/
+target/
+
+# 2. Maven 构建产物
+**/target/
+dependency-reduced-pom.xml
+
+# 3. macOS 系统文件 (因为你用的是 macOS)
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 4. 通用操作系统文件
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# 5. 日志和临时文件
 *.log
+*.tmp
+*.swp
+*~
+
+# 6. 敏感配置文件 (如果有的话，建议忽略)
+# .env
+# application-local.yml
