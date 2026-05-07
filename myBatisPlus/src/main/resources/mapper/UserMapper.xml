@@ -8,4 +8,10 @@
   <select id="selectMapById" resultType="map">
     select id, username, password, created_at from user where id = #{id}
   </select>
+
+<!--  Page<User> selectPageByAge(@Param("page") Page<User> page, @Param("age") Integer age);-->
+  <select id="selectPageByAge" resultType="User">
+    select id, username, password, created_at from user where password = #{age}
+  </select>
+
 </mapper>

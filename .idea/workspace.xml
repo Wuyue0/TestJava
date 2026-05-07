@@ -9,19 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05ad6401-cdb0-400e-843b-f2c888229745" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/myBatisPlus/src/main/java/com/atguigu/myBatisPlus/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myBatisPlus/src/main/java/com/atguigu/myBatisPlus/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myBatisPlus/src/main/java/com/atguigu/myBatisPlus/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myBatisPlus/src/test/java/com/atguigu/myBatisPlus/MybatisPlusServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myBatisPlus/src/test/java/com/atguigu/myBatisPlus/MybatisPlusWrapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="05ad6401-cdb0-400e-843b-f2c888229745" name="更改" comment="jj">
+      <change afterPath="$PROJECT_DIR$/myBatisPlus/src/main/java/com/atguigu/myBatisPlus/config/MyBatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myBatisPlus/src/test/java/com/atguigu/myBatisPlus/MyBatisPlusPluginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myBatisPlus/src/main/java/com/atguigu/myBatisPlus/MyBatisPlusApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/myBatisPlus/src/main/java/com/atguigu/myBatisPlus/MyBatisPlusApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myBatisPlus/src/main/java/com/atguigu/myBatisPlus/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/myBatisPlus/src/main/java/com/atguigu/myBatisPlus/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myBatisPlus/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/myBatisPlus/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myBatisPlus/src/main/java/com/atguigu/myBatisPlus/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/myBatisPlus/src/main/java/com/atguigu/myBatisPlus/mapper/UserMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myBatisPlus/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/myBatisPlus/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myBatisPlus/src/test/java/com/atguigu/myBatisPlus/MybatisplusApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/myBatisPlus/src/test/java/com/atguigu/myBatisPlus/MybatisplusApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myBatisPlus/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/myBatisPlus/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +97,8 @@
     "JUnit.JDBCQuick.executor": "Run",
     "JUnit.JDBCQuick.test.executor": "Debug",
     "JUnit.ManualSpringTest.testManualSpringSetup.executor": "Run",
+    "JUnit.MyBatisPlusPluginTest.testPage.executor": "Run",
+    "JUnit.MyBatisPlusPluginTest.testPage2.executor": "Run",
     "JUnit.MybatisPlusServiceTest.testGetCount.executor": "Run",
     "JUnit.MybatisPlusServiceTest.testInsertMore.executor": "Run",
     "JUnit.MybatisPlusWrapperTest.test01.executor": "Run",
@@ -154,7 +151,7 @@
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2375",
-    "settings.editor.selected.configurable": "通义灵码",
+    "settings.editor.selected.configurable": "mybatisx.settings",
     "vue.rearranger.settings.migration": "true",
     "应用程序.AnnotationApplicationContext.executor": "Run",
     "应用程序.JDBCQuick.executor": "Run",
@@ -198,8 +195,8 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MybatisPlusWrapperTest.test01">
-    <configuration name="MybatisPlusServiceTest.testInsertMore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MyBatisPlusPluginTest.testPage2">
+    <configuration name="MyBatisPlusPluginTest.testPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myBatisPlus" />
       <extension name="coverage">
         <pattern>
@@ -208,8 +205,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.atguigu.myBatisPlus" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.myBatisPlus.MybatisPlusServiceTest" />
-      <option name="METHOD_NAME" value="testInsertMore" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.myBatisPlus.MyBatisPlusPluginTest" />
+      <option name="METHOD_NAME" value="testPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisPlusPluginTest.testPage2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myBatisPlus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.myBatisPlus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.myBatisPlus" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.myBatisPlus.MyBatisPlusPluginTest" />
+      <option name="METHOD_NAME" value="testPage2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -226,22 +239,6 @@
       <option name="PACKAGE_NAME" value="com.atguigu.myBatisPlus" />
       <option name="MAIN_CLASS_NAME" value="com.atguigu.myBatisPlus.MybatisPlusWrapperTest" />
       <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MybatisplusApplicationTests.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myBatisPlus" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.myBatisPlus.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu.myBatisPlus" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.myBatisPlus.MybatisplusApplicationTests" />
-      <option name="METHOD_NAME" value="testDelete" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -506,9 +503,9 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.MyBatisPlusPluginTest.testPage" />
+      <item itemvalue="JUnit.MyBatisPlusPluginTest.testPage2" />
       <item itemvalue="JUnit.MybatisPlusWrapperTest.test01" />
-      <item itemvalue="JUnit.MybatisplusApplicationTests.testDelete" />
-      <item itemvalue="JUnit.MybatisPlusServiceTest.testInsertMore" />
       <item itemvalue="JUnit.MybatisplusApplicationTests.testInsert" />
       <item itemvalue="JUnit.MybatisplusApplicationTests.testSelectList" />
       <item itemvalue="Spring Boot.MyBatisPlusApplication" />
@@ -517,11 +514,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyBatisPlusPluginTest.testPage2" />
+        <item itemvalue="JUnit.MyBatisPlusPluginTest.testPage" />
         <item itemvalue="JUnit.MybatisPlusWrapperTest.test01" />
         <item itemvalue="JUnit.MybatisplusApplicationTests.testSelectList" />
         <item itemvalue="JUnit.MybatisplusApplicationTests.testInsert" />
-        <item itemvalue="JUnit.MybatisplusApplicationTests.testDelete" />
-        <item itemvalue="JUnit.MybatisPlusServiceTest.testInsertMore" />
       </list>
     </recent_temporary>
   </component>
@@ -579,7 +576,9 @@
       <workItem from="1778028636267" duration="1602000" />
       <workItem from="1778030245678" duration="42000" />
       <workItem from="1778030303148" duration="12822000" />
-      <workItem from="1778050761263" duration="8604000" />
+      <workItem from="1778050761263" duration="8775000" />
+      <workItem from="1778115225315" duration="6926000" />
+      <workItem from="1778122699691" duration="1240000" />
     </task>
     <task id="LOCAL-00001" summary="练习初始化">
       <option name="closed" value="true" />
@@ -741,7 +740,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778032789369</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="jj">
+      <option name="closed" value="true" />
+      <created>1778059892932</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1778059892932</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -770,7 +777,8 @@
     <MESSAGE value="修改优化练习代码" />
     <MESSAGE value="mybatis 相关练习" />
     <MESSAGE value="mybatisplus 相关练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="mybatisplus 相关练习" />
+    <MESSAGE value="jj" />
+    <option name="LAST_COMMIT_MESSAGE" value="jj" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

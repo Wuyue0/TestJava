@@ -9,6 +9,8 @@ spring:
 mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  # 配置类型所对应的包
+  type-aliases-package: com.atguigu.myBatisPlus.pojo
 #设置mybatis-plus的全局配置 table-prefix表名字前缀
 #  global-config:
 #    db-config:
