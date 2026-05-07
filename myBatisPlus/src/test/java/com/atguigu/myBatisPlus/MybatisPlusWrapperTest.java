@@ -3,6 +3,7 @@ package com.atguigu.myBatisPlus;
 
 import com.atguigu.myBatisPlus.mapper.UserMapper;
 import com.atguigu.myBatisPlus.pojo.User;
+import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
